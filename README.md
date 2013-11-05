@@ -80,10 +80,11 @@ pd.getItemAfter(pageIndex, indexInPage);
 ###介绍
 
 双项链表
-在https://github.com/tucaz/LinkedList基础上修改了一些bug及代码规范，按自己的需求添加了2个方法
+在https://github.com/tucaz/LinkedList
+基础上修改了一些bug及代码规范，按自己的需求添加了2个方法
 
 用法请参照https://github.com/tucaz/LinkedList
-
+```javascript
 /**
  * 获取这个node在链表中的位置，从head为0开始
  * @return {int}             位置
@@ -96,3 +97,4 @@ Node.getPos();
  * @return {Node}           		对应位置node
  */
 LinkedList.get(pos);
+```
