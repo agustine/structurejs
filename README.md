@@ -74,3 +74,25 @@ pd.getItemBefore(pageIndex, indexInPage);
 pd.getItemAfter(pageIndex, indexInPage);
 
 ```
+
+##LinkedList
+
+###介绍
+
+双项链表
+在https://github.com/tucaz/LinkedList基础上修改了一些bug及代码规范，按自己的需求添加了2个方法
+
+用法请参照https://github.com/tucaz/LinkedList
+
+/**
+ * 获取这个node在链表中的位置，从head为0开始
+ * @return {int}             位置
+ */
+Node.getPos();
+
+/**
+ * 分页信息读取
+ * @param  {int} 		pos 	需要读取的页码
+ * @return {Node}           		对应位置node
+ */
+LinkedList.get(pos);
