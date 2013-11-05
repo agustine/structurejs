@@ -19,7 +19,7 @@
 
 ```javascript
 // 初始化
-var pd = new PagedDatas();
+var pd = new PagedDatas(); 
 
 // 返回信息的枚举 PagedDatas.returnMassages
 // PagedDatas.returnMassages['NO_PAGE_MESSAGE']      : 没有该分页数据（页码 < 1 或者 页码 > 总页数）
